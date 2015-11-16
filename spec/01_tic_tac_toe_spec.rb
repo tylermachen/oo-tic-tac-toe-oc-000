@@ -87,7 +87,7 @@ describe './lib/tic_tac_toe.rb' do
     describe '#valid_move?' do
       it 'returns true/false based on position' do
         game = TicTacToe.new
-        board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+        board = [" ", " ", " ", " ", " ", "X", " ", " ", " "]
         game.instance_variable_set(:@board, board)
 
         position = "1"
